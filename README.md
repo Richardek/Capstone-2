@@ -25,7 +25,18 @@ Example of the food the user ate for that day
 
 More general information:
 
-![general information](capstone2pics/4.PNG)
+![general information](Capstone2pics/4.PNG)
 
+## Built With
+
+### Front-End
+
+* HTML
+* CSS
+* Javascript
+* jQuery
+* Nutritionix api
+
+## Live Demo
 - [Live Demo](https://richardek.github.io/Capstone-2/)
 
