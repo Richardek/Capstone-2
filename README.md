@@ -37,6 +37,10 @@ More general information:
 * jQuery
 * Nutritionix api
 
+## Author
+
+* Richard McBride
+
 ## Live Demo
 - [Live Demo](https://richardek.github.io/Capstone-2/)
 
