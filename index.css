@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  body {
+    margin-right: 9%;
+    background-color: black;
+  }
+  
+  
+  label {
+    font-size: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  input {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .weight-bar {
+    text-align: center;
+  }
+  
+  .setup{
+    text-align: center;
+    color: white;
+  }
+  
+  .sex{
+    padding: 20px;
+  }
+  
+  .buttonHolder {
+    text-align: center;
+  }
+  
+  .next{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    border: solid 3px white;
+    background-color: #bcbbd8;
+  }
+  
+  .delete {
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .startpage{
+    color: white;
+  }
+  
+  .menubar {
+    z-index: 9999;
+    background-color: #86bbd8;
+    opacity: .9;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100vh;
+    transition: background-color 1s, width 0.3s, color 1s;
+  }
+  
+  .menubutton {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .openmenubar {
+    z-index: 9999;
+    width: 30%;
+    background-color: #86bbd8;
+    opacity: 1;
+  }
+  
+  #calCounter {
+    text-align: center;
+    color: white;
+    opacity: 1;
+  }
+  
+  #calCounter2 {
+    text-align: center;
+    color: white;
+    opacity: 1;
+  }
+  
+  
+  .nav-menu {
+    list-style: none;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  .nav-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .title-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: black;
+    color: #86bbd8;
+  }
+  
+  .header {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .search-result-header {
+    background: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    margin-top: 10px;
+    height: 100vm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .long-text {
+    text-align: left;
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    background: black;
+  }
+  
+  .mealBar {
+    flex-basis: 250px;
+    flex-grow: 1;
+    max-height: 200px;
+    border: solid 5px black;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    opacity: .6;
+  }
+  
+  .box {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 2px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    opacity: .8;
+    padding-right: 20px;
+  }
+  
+  .food-search {
+    text-align: center;
+  }
+  
+  .bar {
+      border: 1px solid #d1d1d1;
+      text-align: center;
+      font: bold 20px;
+      font-size: 20px;
+      color: black;
+      width: 150px;
+      /*padding: 1px 15px 6px 35px;*/
+      padding: 6px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+      -webkit-transition: all 0.7s ease 0s;
+      -moz-transition: all 0.7s ease 0s;
+      -o-transition: all 0.7s ease 0s;
+      transition: all 0.7s ease 0s;
+  }
+  
+  
+  @media all and (max-width:800px) {
+      
+  
+  .header {
+    padding: 10px;
+  }
+  
+  body {
+    margin-right: 0;
+  }
+  
+    .text{
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .box {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .mealBar {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .menubar {
+      background-color: transparent;
+      margin-right: 30px;
+      opacity: 1;
+    }
+  
+    .menubutton {
+      margin: 5px;
+      font-size: 60px;
+      color: white;
+    }
+  
+    .openmenubar {
+      margin-right: 0;
+      height: 100vh;
+      width: 30%;
+      background-color: #86bbd8;
+    }
+  
+    #calCounter {
+      display: none;
+    }
+  
+    .header {
+      margin-right: 10px;
+    }
+  }
+  
+  
+  
